@@ -83,8 +83,8 @@ const Home = () => {
                 placeholder="Last Name"
                 {...register("lastname")}
                 className={`form-control ${errors.lastname ? "is-invalid" : ""}`}
-                // {...(show ? <img src="../images/icon-error.svg" alt="error" className="error-icon" /> : null)}
-                {...errors.lastname ? <img src="../images/icon-error.svg" alt="error" className="error-icon" /> : '' }
+                {...(show ? <img src="../images/icon-error.svg" alt="error" className="error-icon" /> : null)}
+                // {...errors.lastname ? <img src="../images/icon-error.svg" alt="error" className="error-icon" /> : '' }
               />
               <ErrorMsg>{errors.lastname?.message}</ErrorMsg>
             </span>
@@ -115,7 +115,7 @@ const Home = () => {
             </span>
             {/* </FormColum> */}
 
-            <Button  />
+            <Button />
             <Terms>by clicking the button youre agreeing to our <b>Terms and condition</b></Terms>
           </Form>
         </Signup>
