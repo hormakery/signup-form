@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ButtonWrapper=styled.div`
 width: 100%;
 color:#fff;
+text-align: center;
 cursor: pointer;
 padding: .9rem 2rem;
 margin-bottom: 1rem;
@@ -15,7 +16,6 @@ color:#fff;
 border: none;
 outline: none;
 font-weight: 600;
-display: block;
 cursor: pointer;
 align-items:center;
 text-align: center;
