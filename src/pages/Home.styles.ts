@@ -30,7 +30,7 @@ export const Title = styled.h1`
   margin-bottom: 1rem;
 
   @media (max-width: 790px) {
-    font-size: 2.4rem;
+    font-size: 3.2rem;
     text-align: center;
   }
   @media (max-width: 500px) {
@@ -150,8 +150,7 @@ export const ErrorMsg = styled.div`
 export const Terms = styled.span`
   font-size: 0.6rem;
   color: #d1d0d4;
-  // text-align: center;
-  margin-left: 2rem;
+ 
 
   b {
     color: #de8d95;
